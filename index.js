@@ -1,6 +1,11 @@
 const request = require('request');
 
 module.exports = {
+	/**
+	* Connected_users function
+	* @param {String} Ip     Server IP
+	* @param {Number} Port Optional server port
+	*/
 	connected_users: function (ip, port) {
 		let promise = new Promise(function (res, rej) {
 			let options = {
@@ -25,6 +30,11 @@ module.exports = {
 		return promise
 	},
 
+	/**
+	* Max_users function
+	* @param {String} Ip     Server IP
+	* @param {Number} Port Optional server port
+	*/
 	max_users: function (ip, port) {
 		let promise = new Promise(function (res, rej) {
 			let options = {
