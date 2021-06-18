@@ -11,7 +11,12 @@
     "url": "git+https://github.com/bycop/fivem-server-info.git"
   },
   "keywords": [
-    "FiveM"
+    "FiveM",
+    "server",
+    "status",
+    "info",
+    "game",
+    "Gta"
   ],
   "author": "Bycop#4757",
   "license": "ISC",
