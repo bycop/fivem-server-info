@@ -17,6 +17,7 @@ const fivem = require('fivem-server-info');
 
 fivem.connected_users("IP", "Optional port"); //Set to 30120 if null
 fivem.max_users("IP", "Optional port"); //Set to 30120 if null
+fivem.user_list("IP", "Optional port"); //Set to 30120 if null
 ```
 
 ### Example
@@ -27,6 +28,8 @@ async function example() {
     const connect = await fivem.connected_users("extinction5.gtaliferp.fr");
     const max = await fivem.max_users("extinction5.gtaliferp.fr");
     console.log(connect + "/" + max);
+    const list = await fivem.user_list("extinction5.gtaliferp.fr");
+    console.log(list)
 }
 
 example();
@@ -40,6 +43,8 @@ async function example() {
     const connect = await fivem.connected_users("extinction5.gtaliferp.fr", 30120);
     const max = await fivem.max_users("extinction5.gtaliferp.fr", 30120);
     console.log(connect + "/" + max);
+    const list = await fivem.user_list("extinction5.gtaliferp.fr", 30120);
+    console.log(list)
 }
 
 example();
