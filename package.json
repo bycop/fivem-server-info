@@ -1,6 +1,6 @@
 {
   "name": "fivem-server-info",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "NPM | Package allowing to get information from a FiveM server using its ip",
   "main": "index.js",
   "scripts": {
