@@ -1,5 +1,5 @@
-const request = require('request');
-const axios = rquire('axios');
+const axios = require('axios');
+
 module.exports = {
 	/**
 	* Connected_users function
@@ -51,7 +51,7 @@ module.exports = {
 				timeout: 5000
 			}).then(function (response) {
 				data = response.data;
-				res(return_data.map(user => {
+				res(data.map(user => {
 					return { id: user.id, nick: user.name, ping: user.ping };
 				}));
 			}).catch(function (error) {
