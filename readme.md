@@ -1,4 +1,5 @@
 # fivem-server-info
+<a href="https://www.npmjs.com/package/fivem-server-info"><img src="https://img.shields.io/npm/dt/fivem-server-info.svg?maxAge=3600" alt="NPM downloads" /></a>
 
 ## About
 
